@@ -29,7 +29,7 @@ class PortfolioList extends React.Component{
               <span className='port_title'>포트폴리오 리스트</span>
               <ul className='portfolio_list'>
                 <li>
-                  <Link to="/Netgeo">
+                  <Link to="/Netgeo" target="_blank">
                     <img src={Netgeo} alt="네셔널지오그래픽 이미지"></img>
                     <span>클릭하여 접속</span>
                   </Link>
@@ -37,7 +37,7 @@ class PortfolioList extends React.Component{
                     <span className="project_title">
                       <p>프로젝트 제목 </p>
                       <p>
-                        <Link to="/Netgeo">
+                        <Link to="/Netgeo" target="_blank">
                           네셔널지오그래픽
                         </Link>
                       </p>
@@ -53,7 +53,7 @@ class PortfolioList extends React.Component{
                   </div>
                 </li>
                 <li>
-                  <Link to="/Genshin">
+                  <Link to="/Genshin" target="_blank">
                     <img src={Genshin} alt="원신 이미지"></img>
                     <span>클릭하여 접속</span>
                   </Link>
@@ -61,7 +61,7 @@ class PortfolioList extends React.Component{
                     <span className="project_title">
                       <p>프로젝트 제목</p>
                       <p>
-                        <Link to="/Genshin">
+                        <Link to="/Genshin" target="_blank">
                           원신
                         </Link>
                       </p>
@@ -78,7 +78,7 @@ class PortfolioList extends React.Component{
                   </div>
                 </li>
                 <li>
-                  <Link to="/Insquare">
+                  <Link to="/Insquare" target="_blank">
                     <img src={Playhub} alt="인스퀘어 이미지"></img>
                     <span>클릭하여 접속</span>
                   </Link>
@@ -86,7 +86,7 @@ class PortfolioList extends React.Component{
                     <span className="project_title">
                       <p>프로젝트 제목</p>
                       <p>
-                        <Link to="/Insquare">
+                        <Link to="/Insquare" target="_blank">
                           인스퀘어
                         </Link>
                       </p>
