@@ -43,7 +43,7 @@ class Header extends React.Component{
                 <ul className={GiheaderSt.navi_list}>
                   <li>게임 특징</li>
                   <li>원소 전투 가이드</li>
-                  <li><Link to="/Genshin/main/character"></Link></li>
+                  <li><Link to="/Genshin/main/character">캐릭터 소개</Link></li>
                   <li>배경 소개</li>
                 </ul>
               </li>
