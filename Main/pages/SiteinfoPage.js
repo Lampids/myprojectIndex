@@ -96,7 +96,7 @@ class PortfolioPage extends React.Component{
               코드 : https://github.com/Lampids/myprojectIndex
             </li>
             <li>
-              주소 : https://lampids.github.io/tkddbs2009.github.io/
+              주소 : https://lampids.github.io/myproject/
             </li>
           </ul>
           <span className={InfoSt.another_design}>
