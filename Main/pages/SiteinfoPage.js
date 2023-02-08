@@ -93,6 +93,9 @@ class PortfolioPage extends React.Component{
               메일 : tkddbs2009@naver.com
             </li>
             <li>
+              코드 : https://github.com/Lampids/myprojectIndex
+            </li>
+            <li>
               주소 : https://lampids.github.io/tkddbs2009.github.io/
             </li>
           </ul>
