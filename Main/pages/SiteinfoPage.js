@@ -40,16 +40,16 @@ class PortfolioPage extends React.Component{
               <span>네셔널지오그래픽</span>
               <ul className={InfoSt.site_link}>
                 <li>
-                  <Link to="/Netgeo">메인</Link>
+                  <Link to="/Netgeo" target="_blank">메인</Link>
                 </li>
                 <li>
-                  <Link to="/Netgeo/Brand">브랜드</Link>
+                  <Link to="/Netgeo/Brand" target="_blank">브랜드</Link>
                 </li>
                 <li>
-                  <Link to="/Netgeo/Channel">채널</Link>
+                  <Link to="/Netgeo/Channel" target="_blank">채널</Link>
                 </li>
                 <li>
-                  <Link to="/Netgeo/Login">로그인</Link>
+                  <Link to="/Netgeo/Login" target="_blank">로그인</Link>
                 </li>
               </ul>
             </li>
@@ -57,16 +57,16 @@ class PortfolioPage extends React.Component{
               <span>원신</span>
               <ul className={InfoSt.site_link}>
                 <li>
-                  <Link to="/Genshin">이벤트페이지</Link>
+                  <Link to="/Genshin" target="_blank">이벤트페이지</Link>
                 </li>
                 <li>
-                  <Link to="/Genshin/main">메인</Link>
+                  <Link to="/Genshin/main" target="_blank">메인</Link>
                 </li>
                 <li>
-                  <Link to="/Genshin/main/character">캐릭터 소개</Link>
+                  <Link to="/Genshin/main/character" target="_blank">캐릭터 소개</Link>
                 </li>
                 <li>
-                  <Link to="/Genshin/main/login">로그인</Link>
+                  <Link to="/Genshin/main/login" target="_blank">로그인</Link>
                 </li>
               </ul>
             </li>
@@ -74,10 +74,10 @@ class PortfolioPage extends React.Component{
               <span>인스퀘어</span>
               <ul className={InfoSt.site_link}>
                 <li>
-                  <Link to="/InSquare">메인</Link>
+                  <Link to="/InSquare" target="_blank">메인</Link>
                 </li>
                 <li>
-                  <Link to="/InSquare/login">로그인</Link>
+                  <Link to="/InSquare/login" target="_blank">로그인</Link>
                 </li>
               </ul>
             </li>
