@@ -36,13 +36,13 @@ class PortfolioPage extends React.Component{
           <ul className={PortSt.portfolio_list}>
             <li>
               <div className={PortSt.portfolio_img_box}>
-                <Link to ="/Netgeo">
+                <Link to ="/Netgeo" target="_blank">
                   <img src={projectImg1} alt="프로젝트 이미지"></img>
                 </Link>
               </div>
               <div className={PortSt.portfolio_info}>
                 <span className={PortSt.project_name}>
-                  <Link to ="/Netgeo">
+                  <Link to ="/Netgeo" target="_blank">
                     네셔널지오그래픽
                   </Link>
                 </span>
@@ -63,13 +63,13 @@ class PortfolioPage extends React.Component{
             </li>
             <li>
               <div className={PortSt.portfolio_img_box}>
-                <Link to ="/Genshin">
+                <Link to ="/Genshin" target="_blank">
                   <img src={projectImg2} alt="프로젝트 이미지"></img>
                 </Link>
               </div>
               <div className={PortSt.portfolio_info}>
                 <span className={PortSt.project_name}>
-                  <Link to ="/Genshin">
+                  <Link to ="/Genshin" target="_blank">
                     원신
                   </Link>
                 </span>
@@ -88,13 +88,13 @@ class PortfolioPage extends React.Component{
             </li>
             <li>
               <div className={PortSt.portfolio_img_box}>
-                <Link to ="/InSquare">
+                <Link to ="/InSquare" target="_blank">
                   <img src={projectImg3} alt="프로젝트 이미지"></img>
                 </Link>
               </div>
               <div className={PortSt.portfolio_info}>
                 <span className={PortSt.project_name}>
-                  <Link to ="/InSquare">
+                  <Link to ="/InSquare" target="_blank">
                     인스퀘어
                   </Link>
                 </span>
